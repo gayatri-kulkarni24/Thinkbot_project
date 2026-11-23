@@ -1,0 +1,39 @@
+.page {
+  height: 100vh;
+  background: #0f0f0f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.page-card {
+  width: 460px;
+  background: #1c1c1c;
+  border-radius: 16px;
+  padding: 30px;
+}
+
+.page-header h2 {
+  margin: 0;
+}
+
+.page-header p {
+  margin: 5px 0 25px;
+  color: #9a9a9a;
+  font-size: 14px;
+}
+
+.page-content {
+  margin-bottom: 25px;
+}
+
+.page-back {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #e68609;
+  background: transparent;
+  color: #e68609;
+  cursor: pointer;
+}

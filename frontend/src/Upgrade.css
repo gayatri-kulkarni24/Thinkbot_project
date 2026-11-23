@@ -1,0 +1,42 @@
+.plan {
+  background: #151515;
+  padding: 18px;
+  border-radius: 14px;
+  margin-bottom: 18px;
+}
+
+.plan h3 {
+  margin-top: 0;
+}
+
+.plan ul {
+  padding-left: 18px;
+  margin: 10px 0;
+}
+
+.plan li {
+  margin-bottom: 6px;
+}
+
+.plan.current {
+  border: 1px solid #333;
+  color: #9a9a9a;
+}
+
+.badge {
+  font-size: 12px;
+}
+
+.plan.pro {
+  border: 2px solid #e68609;
+}
+
+.upgrade-btn {
+  width: 100%;
+  padding: 10px;
+  background: #e68609;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
